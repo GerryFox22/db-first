@@ -1,0 +1,39 @@
+
+DATABASE 
+
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti 
+delle auto usate messe in vendita da un concessionario,
+cercando di inserire più dati possibili per evitare di dover aggiornare la tabella in futuro.
+
+
+----------------------------
+
+nome db : "AutoUsate"
+
+----------------------------
+
+
+id (PRIMARY_KEY[indice]) - intero - MEDIUMINT - AUTOINCREMENT (UNIQUE - NOT NULL)
+nome_proprietario - stringa - VARCHAR(250)
+cognome_propietario - stringa - VARCHAR(250)
+nascita_proprietario - data - DATE
+indirizzo_propietario - stringa - VARCHAR(250)
+cap_proprietario - intero -SMALLINT
+città_proprietario - stringa - VARCHAR(50)
+email_proprietario - stringa - VARCHAR(50)
+telefono_proprietario - stringa - VARCHAR(50)
+cellulare_proprietario - stringa - VARCHAR(50)
+
+codice_auto - stringa - VARCHAR(50)
+marca_auto - stringa - VARCHAR(50)
+modello_auto - stringa - VARCHAR(50)
+colore_auto - stringa - VARCHAR(50)
+prezzo_auto - intero - FLOAT(11,3)
+km_percorsi - intero - FLOAT(9,3)
+anno_immatricolazione - data - YEAR
+revisione - booleano - TINYINT
+data_revisione - data -DATE
+
+
+
+
